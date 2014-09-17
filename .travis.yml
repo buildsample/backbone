@@ -6,4 +6,6 @@ node_js:
 notifications:
   email: false
 
-before_script: firefox --version
+before_script: 
+  - firefox --version
+  - echo $BRANCH
