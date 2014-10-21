@@ -45,7 +45,7 @@
       }
     });
 
-    strictEqual(new View().one, 1);
+    strictEqual(new View().one, 11);#ans 1
   });
 
   test("delegateEvents", 6, function() {
