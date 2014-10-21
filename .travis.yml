@@ -11,5 +11,5 @@ notifications:
 before_script: 
   - firefox --version
   - echo $BRANCH
-caching: true
+cach: true
 after_script: echo $BRANCH
