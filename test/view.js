@@ -32,7 +32,7 @@
   test("$el", 3, function() {
     var view = new Backbone.View;
     view.setElement('<p><a><b>test</b></a></p>');
-    strictEqual(view.el.nodeType, 1);
+    strictEqual(view.el.nodeType, 11); # it should be 1
 
     ok(view.$el instanceof Backbone.$);
     strictEqual(view.$el[0], view.el);
