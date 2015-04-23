@@ -3,7 +3,6 @@ language: node_js
 before_install:
     - npm install contextify
 
-
 node_js:
   - '0.10'
 
